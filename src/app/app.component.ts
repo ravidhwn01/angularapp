@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular app';
   date = new Date();
-  name = "Ravi Kumar Dhawan"
+  name = "Ravi Kumar Dhawan";
+  address = {
+    city: "Delhi",
+    state: "Delhi",
+    country: "India"
+  }
 }
